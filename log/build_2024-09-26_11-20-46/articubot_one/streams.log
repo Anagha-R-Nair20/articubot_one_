@@ -1,0 +1,52 @@
+[0.113s] Invoking command in '/code/build/articubot_one': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /code/src/articubot_one -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/code/install/articubot_one
+[2.626s] -- The C compiler identification is GNU 11.4.0
+[3.369s] -- The CXX compiler identification is GNU 11.4.0
+[3.417s] -- Detecting C compiler ABI info
+[3.907s] -- Detecting C compiler ABI info - done
+[3.945s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.946s] -- Detecting C compile features
+[4.053s] -- Detecting C compile features - done
+[4.069s] -- Detecting CXX compiler ABI info
+[4.487s] -- Detecting CXX compiler ABI info - done
+[4.523s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.524s] -- Detecting CXX compile features
+[4.526s] -- Detecting CXX compile features - done
+[4.703s] -- Found ament_cmake: 2.0.6 (/opt/ros/iron/share/ament_cmake/cmake)
+[5.635s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[5.955s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[6.147s] -- Found ament_lint_auto: 0.14.4 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[6.499s] -- Added test 'copyright' to check source files copyright and LICENSE
+[6.525s] -- Added test 'flake8' to check Python code syntax and style conventions
+[6.525s] -- Configured 'flake8' exclude dirs and/or files: 
+[6.530s] -- Added test 'lint_cmake' to check CMake code style
+[6.533s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[6.548s] -- Added test 'xmllint' to check XML markup files
+[6.554s] -- Configuring done
+[6.566s] -- Generating done
+[6.570s] -- Build files have been written to: /code/build/articubot_one
+[6.583s] Invoked command in '/code/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /code/src/articubot_one -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/code/install/articubot_one
+[6.588s] Invoking command in '/code/build/articubot_one': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /code/build/articubot_one -- -j8 -l8
+[6.724s] Invoked command in '/code/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /code/build/articubot_one -- -j8 -l8
+[6.839s] Invoking command in '/code/build/articubot_one': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /code/build/articubot_one
+[6.872s] -- Install configuration: ""
+[6.874s] -- Execute custom install script
+[6.877s] -- Symlinking: /code/install/articubot_one/share/articubot_one/config/empty.yaml
+[6.912s] -- Symlinking: /code/install/articubot_one/share/articubot_one/description/robot.urdf.xacro
+[6.941s] -- Symlinking: /code/install/articubot_one/share/articubot_one/launch/rsp.launch.py
+[6.970s] -- Symlinking: /code/install/articubot_one/share/articubot_one/worlds/empty.world
+[7.003s] -- Symlinking: /code/install/articubot_one/share/ament_index/resource_index/package_run_dependencies/articubot_one
+[7.034s] -- Symlinking: /code/install/articubot_one/share/ament_index/resource_index/parent_prefix_path/articubot_one
+[7.065s] -- Symlinking: /code/install/articubot_one/share/articubot_one/environment/ament_prefix_path.sh
+[7.095s] -- Symlinking: /code/install/articubot_one/share/articubot_one/environment/ament_prefix_path.dsv
+[7.122s] -- Symlinking: /code/install/articubot_one/share/articubot_one/environment/path.sh
+[7.149s] -- Symlinking: /code/install/articubot_one/share/articubot_one/environment/path.dsv
+[7.181s] -- Symlinking: /code/install/articubot_one/share/articubot_one/local_setup.bash
+[7.213s] -- Symlinking: /code/install/articubot_one/share/articubot_one/local_setup.sh
+[7.239s] -- Symlinking: /code/install/articubot_one/share/articubot_one/local_setup.zsh
+[7.270s] -- Symlinking: /code/install/articubot_one/share/articubot_one/local_setup.dsv
+[7.298s] -- Symlinking: /code/install/articubot_one/share/articubot_one/package.dsv
+[7.325s] -- Symlinking: /code/install/articubot_one/share/ament_index/resource_index/packages/articubot_one
+[7.349s] -- Symlinking: /code/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig.cmake
+[7.377s] -- Symlinking: /code/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig-version.cmake
+[7.404s] -- Symlinking: /code/install/articubot_one/share/articubot_one/package.xml
+[7.435s] Invoked command in '/code/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /code/build/articubot_one

@@ -1,0 +1,10 @@
+[31mCMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:302 (message):
+  Could not create symlink
+  '/code/install/articubot_one/share/articubot_one/config/l' pointing to
+  '/code/src/articubot_one/config/l'
+Call Stack (most recent call first):
+  ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:96 (_ament_cmake_symlink_install_create_symlink)
+  ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:314 (ament_cmake_symlink_install_directory)
+  cmake_install.cmake:46 (include)
+
+[0m

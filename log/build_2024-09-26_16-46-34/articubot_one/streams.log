@@ -1,0 +1,18 @@
+[0.153s] Invoking command in '/code/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /code/build/articubot_one -- -j8 -l8
+[0.867s] Invoked command in '/code/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /code/build/articubot_one -- -j8 -l8
+[0.902s] Invoking command in '/code/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /code/build/articubot_one
+[0.909s] -- Install configuration: ""
+[0.946s] -- Execute custom install script
+[0.947s] -- Up-to-date symlink: /code/install/articubot_one/share/articubot_one/config/empty.yaml
+[0.947s] -- Symlinking: /code/install/articubot_one/share/articubot_one/config/l
+[0.957s] [31mCMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:302 (message):
+[0.957s]   Could not create symlink
+[0.957s]   '/code/install/articubot_one/share/articubot_one/config/l' pointing to
+[0.957s]   '/code/src/articubot_one/config/l'
+[0.958s] Call Stack (most recent call first):
+[0.958s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:96 (_ament_cmake_symlink_install_create_symlink)
+[0.958s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:314 (ament_cmake_symlink_install_directory)
+[0.958s]   cmake_install.cmake:46 (include)
+[0.958s] 
+[0.958s] [0m
+[0.959s] Invoked command in '/code/build/articubot_one' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /code/build/articubot_one
