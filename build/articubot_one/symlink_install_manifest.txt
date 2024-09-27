@@ -1,8 +1,12 @@
+/code/install/articubot_one/share/articubot_one/config/default.rviz
 /code/install/articubot_one/share/articubot_one/config/empty.yaml
 /code/install/articubot_one/share/articubot_one/config/gazebo_params.yaml
 /code/install/articubot_one/share/articubot_one/config/joystick.yaml
+/code/install/articubot_one/share/articubot_one/config/mapper_params_online_async.yaml
 /code/install/articubot_one/share/articubot_one/config/my_controllers.yaml
-/code/install/articubot_one/share/articubot_one/config/view.rviz
+/code/install/articubot_one/share/articubot_one/config/nav2_params.yaml
+/code/install/articubot_one/share/articubot_one/config/new.rviz
+/code/install/articubot_one/share/articubot_one/config/twist_mux.yaml
 /code/install/articubot_one/share/articubot_one/description/camera.xacro
 /code/install/articubot_one/share/articubot_one/description/face.xacro
 /code/install/articubot_one/share/articubot_one/description/gazebo_control.xacro
@@ -13,6 +17,9 @@
 /code/install/articubot_one/share/articubot_one/description/ros2_control.xacro
 /code/install/articubot_one/share/articubot_one/launch/joystick.launch.py
 /code/install/articubot_one/share/articubot_one/launch/launch_sim.launch.py
+/code/install/articubot_one/share/articubot_one/launch/localisation_launch.py
+/code/install/articubot_one/share/articubot_one/launch/navigation_launch.py
+/code/install/articubot_one/share/articubot_one/launch/online_async_launch.py
 /code/install/articubot_one/share/articubot_one/launch/rsp.launch.py
 /code/install/articubot_one/share/articubot_one/worlds/empty.world
 /code/install/articubot_one/share/articubot_one/worlds/obstacles.world

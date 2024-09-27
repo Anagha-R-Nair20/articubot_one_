@@ -1,0 +1,46 @@
+[0.395s] Invoking command in '/code/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/code/install/joy_tester:/opt/ros/iron /usr/bin/cmake --build /code/build/articubot_one -- -j8 -l8
+[3.795s] Invoked command in '/code/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/code/install/joy_tester:/opt/ros/iron /usr/bin/cmake --build /code/build/articubot_one -- -j8 -l8
+[4.149s] Invoking command in '/code/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/code/install/joy_tester:/opt/ros/iron /usr/bin/cmake --install /code/build/articubot_one
+[4.244s] -- Install configuration: ""
+[4.249s] -- Execute custom install script
+[4.254s] -- Symlinking: /code/install/articubot_one/share/articubot_one/config/default.rviz
+[4.356s] -- Up-to-date symlink: /code/install/articubot_one/share/articubot_one/config/empty.yaml
+[4.362s] -- Up-to-date symlink: /code/install/articubot_one/share/articubot_one/config/gazebo_params.yaml
+[4.364s] -- Up-to-date symlink: /code/install/articubot_one/share/articubot_one/config/joystick.yaml
+[4.366s] -- Up-to-date symlink: /code/install/articubot_one/share/articubot_one/config/mapper_params_online_async.yaml
+[4.369s] -- Up-to-date symlink: /code/install/articubot_one/share/articubot_one/config/my_controllers.yaml
+[4.386s] -- Up-to-date symlink: /code/install/articubot_one/share/articubot_one/config/nav2_params.yaml
+[4.390s] -- Up-to-date symlink: /code/install/articubot_one/share/articubot_one/config/new.rviz
+[4.396s] -- Up-to-date symlink: /code/install/articubot_one/share/articubot_one/config/twist_mux.yaml
+[4.401s] -- Up-to-date symlink: /code/install/articubot_one/share/articubot_one/description/camera.xacro
+[4.402s] -- Up-to-date symlink: /code/install/articubot_one/share/articubot_one/description/face.xacro
+[4.414s] -- Up-to-date symlink: /code/install/articubot_one/share/articubot_one/description/gazebo_control.xacro
+[4.415s] -- Up-to-date symlink: /code/install/articubot_one/share/articubot_one/description/inertial_macros.xacro
+[4.420s] -- Up-to-date symlink: /code/install/articubot_one/share/articubot_one/description/lidar.xacro
+[4.421s] -- Up-to-date symlink: /code/install/articubot_one/share/articubot_one/description/robot.urdf.xacro
+[4.421s] -- Up-to-date symlink: /code/install/articubot_one/share/articubot_one/description/robot_core.xacro
+[4.421s] -- Up-to-date symlink: /code/install/articubot_one/share/articubot_one/description/ros2_control.xacro
+[4.424s] -- Up-to-date symlink: /code/install/articubot_one/share/articubot_one/launch/joystick.launch.py
+[4.425s] -- Up-to-date symlink: /code/install/articubot_one/share/articubot_one/launch/launch_sim.launch.py
+[4.425s] -- Up-to-date symlink: /code/install/articubot_one/share/articubot_one/launch/localisation.launch.py
+[4.426s] -- Up-to-date symlink: /code/install/articubot_one/share/articubot_one/launch/navigation.launch.py
+[4.426s] -- Up-to-date symlink: /code/install/articubot_one/share/articubot_one/launch/online_async_launch.py
+[4.426s] -- Up-to-date symlink: /code/install/articubot_one/share/articubot_one/launch/rsp.launch.py
+[4.427s] -- Up-to-date symlink: /code/install/articubot_one/share/articubot_one/worlds/empty.world
+[4.427s] -- Up-to-date symlink: /code/install/articubot_one/share/articubot_one/worlds/obstacles.world
+[4.428s] -- Up-to-date symlink: /code/install/articubot_one/share/ament_index/resource_index/package_run_dependencies/articubot_one
+[4.428s] -- Up-to-date symlink: /code/install/articubot_one/share/ament_index/resource_index/parent_prefix_path/articubot_one
+[4.428s] -- Up-to-date symlink: /code/install/articubot_one/share/articubot_one/environment/ament_prefix_path.sh
+[4.429s] -- Up-to-date symlink: /code/install/articubot_one/share/articubot_one/environment/ament_prefix_path.dsv
+[4.429s] -- Up-to-date symlink: /code/install/articubot_one/share/articubot_one/environment/path.sh
+[4.429s] -- Up-to-date symlink: /code/install/articubot_one/share/articubot_one/environment/path.dsv
+[4.430s] -- Up-to-date symlink: /code/install/articubot_one/share/articubot_one/local_setup.bash
+[4.430s] -- Up-to-date symlink: /code/install/articubot_one/share/articubot_one/local_setup.sh
+[4.431s] -- Up-to-date symlink: /code/install/articubot_one/share/articubot_one/local_setup.zsh
+[4.431s] -- Up-to-date symlink: /code/install/articubot_one/share/articubot_one/local_setup.dsv
+[4.431s] -- Symlinking: /code/install/articubot_one/share/articubot_one/package.dsv
+[4.468s] -- Up-to-date symlink: /code/install/articubot_one/share/ament_index/resource_index/packages/articubot_one
+[4.468s] -- Up-to-date symlink: /code/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig.cmake
+[4.469s] -- Up-to-date symlink: /code/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig-version.cmake
+[4.471s] -- Up-to-date symlink: /code/install/articubot_one/share/articubot_one/package.xml
+[4.494s] Invoked command in '/code/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/code/install/joy_tester:/opt/ros/iron /usr/bin/cmake --install /code/build/articubot_one
