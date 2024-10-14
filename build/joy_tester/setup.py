@@ -1,1 +1,0 @@
-/code/joy_tester/setup.py

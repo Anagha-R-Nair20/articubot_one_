@@ -11,10 +11,13 @@ services:
       #- NVIDIA_VISIBLE_DEVICES=all
       - QT_DEBUG_PLUGINS=1
       - TZ=Asia/Kolkata
+      - ROS_DOMAIN_ID=10        # Set ROS domain ID for both machines
+      - RMW_IMPLEMENTATION=rmw_cyclonedds_cpp  # Ensure both use the same DDS implementation
+      - ROS_LOCALHOST_ONLY=0 
     volumes:
       - /tmp/.X11-unix:/tmp/.X11-unix
       - /home/anagha/dev_ws:/code
-    # network_mode: host
+    network_mode: host
     devices:
       - /dev/dri:/dev/dri
       - /dev/input:/dev/input
