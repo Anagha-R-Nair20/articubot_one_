@@ -10,16 +10,16 @@ slam_toolbox:
     ceres_loss_function: None
 
     # ROS Parameters
-    odom_frame: odom
-    map_frame: map
-    base_frame: base_footprint
+    odom_frame_id: odom
+    map_frame_id: map
+    base_frame_id: base_footprint
     scan_topic: /scan
     mode: localization
 
     # if you'd like to immediately start continuing a map at a given pose
     # or at the dock, but they are mutually exclusive, if pose is given
     # will use pose
-    map_file_name: /home/dev/dev_ws/my_map_serial
+    map_file_name: complete
     # map_start_pose: [0.0, 0.0, 0.0]
     map_start_at_dock: true
 
