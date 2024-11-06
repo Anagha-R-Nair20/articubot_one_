@@ -1,0 +1,42 @@
+version: '3'
+services:
+  ros-iron:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    privileged: true
+    environment:
+      - DISPLAY
+      - QT_X11_NO_MITSHM=1
+      #- NVIDIA_VISIBLE_DEVICES=all
+      - QT_DEBUG_PLUGINS=1
+      - TZ=Asia/Kolkata
+      - ROS_DOMAIN_ID=10        # Set ROS domain ID for both machines
+      - RMW_IMPLEMENTATION=rmw_cyclonedds_cpp  # Ensure both use the same DDS implementation
+      - ROS_LOCALHOST_ONLY=0
+    volumes:
+      - /dev:/dev
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      - /home/robot/robot_ws:/code
+    network_mode: host
+    
+    devices:
+      - /dev/dri:/dev/dri
+      - /dev/input:/dev/input
+      # - /dev/ttyUSB0:/dev/ttyUSB0
+      # - /dev/ttyUSB1:/dev/ttyUSB1
+      
+      
+
+    cap_add:
+      - SYS_ADMIN
+    #runtime: nvidia
+    #command: bash -c "source /opt/ros/iron/setup.bash && tail -f /dev/null"
+    command:
+      - /bin/bash
+      - -c
+      - |
+          pwd
+          ls
+          source /opt/ros/iron/setup.bash
+          tail -f < /dev/null
