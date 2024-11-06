@@ -1,0 +1,7 @@
+[submodule "ros_arduino_bridge"]
+	path = ros_arduino_bridge
+	url = https://github.com/joshnewans/ros_arduino_bridge.git
+
+[submodule "articubot_one_"]
+	path = articubot_one_
+	url = https://github.com/Anagha-R-Nair20/articubot_one_.git

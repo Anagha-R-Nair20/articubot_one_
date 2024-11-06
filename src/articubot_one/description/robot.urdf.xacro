@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="robot">
+
+    <!-- Define use_ros2_control argument -->
+    <xacro:arg name="use_ros2_control" default="true"/>
+
+    <!-- Include core robot parts -->
+    <xacro:include filename="robot_core.xacro" />
+    <xacro:include filename="lidar.xacro" />
+    <xacro:include filename="camera.xacro" />
+    <xacro:include filename="face.xacro" />
+    <xacro:include filename="ros2_control.xacro" />
+
+    <!-- Conditionally include ros2_control -->
+    <!-- <xacro:if value="${use_ros2_control}">
+        <xacro:include filename="ros2_control.xacro" />
+    </xacro:if> -->
+
+</robot>
