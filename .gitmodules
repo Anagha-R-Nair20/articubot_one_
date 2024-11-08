@@ -5,3 +5,7 @@
 [submodule "articubot_one_"]
 	path = articubot_one_
 	url = https://github.com/Anagha-R-Nair20/articubot_one_.git
+[submodule "diffdrive_arduino"]
+	path = diffdrive_arduino
+	url = https://github.com/joshnewans/diffdrive_arduino.git
+	branch = humble
